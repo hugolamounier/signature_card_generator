@@ -22,7 +22,7 @@ namespace signature_card_generator
 
         private void GenSignature(string name, string jobTitle, string department, string phone, string cellphone)
         {
-            var cellphoneFormatted = (!String.IsNullOrWhiteSpace(cellphone) ? $"C: {HttpUtility.HtmlEncode(cellphone)}" : "");
+            var cellphoneFormatted = (!String.IsNullOrWhiteSpace(cellphone) && cellphone != "+55 (XX) XXXX-XXXX" ? $"C: {HttpUtility.HtmlEncode(cellphone)}" : "");
 
             var htmlSkeleton = @$"
                 <table width='500' style='font-family: Arial, Helvetica, sans-serif;'>
