@@ -25,7 +25,7 @@ namespace signature_card_generator
             var cellphoneFormatted = (cellphone != null || cellphone != "" || cellphone != "+55 (XX) XXXX-XXXX" ? $"C: {cellphone}" : "");
 
             var htmlSkeleton = @$"
-                <table width='500'>
+                <table width='500' style='font-family: Arial, Helvetica, sans-serif;'>
                     <tbody>
                         <tr>
                             <td valign='middle' width='250' height='200'><img style='display: block; margin-left: auto; margin-right: auto;' src='https://1r6jvw.ch.files.1drv.com/y4mlWhmVYh4GTgrNUCiDH8PWOx1HoJCoqq7ElkDRc8pjWf8AxDzIjkzbLk_h_jyeeQjLldQt8ww73mtGH4cHCWsH6vQcoOfb-q55b0YYJp3qAWxI6gToQjdndTYnEyfF_vwv-8eDjF-rQ4LXY3lAI2fSqiC72BhBCtSJZhaiAX38-6deHpncnKcIy0UiZE5A8bkch5BCvoANvHU4mYzH6po5A/logo_01_central_sem%20fundo.png?psid=1' alt='' width='225' height='200' /></td>
