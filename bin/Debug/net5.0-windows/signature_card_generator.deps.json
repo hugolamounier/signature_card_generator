@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "signature_card_generator/1.0.0": {
+        "dependencies": {
+          "CoreHtmlToImage": "1.0.6"
+        },
+        "runtime": {
+          "signature_card_generator.dll": {}
+        }
+      },
+      "CoreHtmlToImage/1.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "signature_card_generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreHtmlToImage/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O5TZhjxIV4T3ayZPLJqLQ/KFhu5NllrLqKi+YbKbmjLs11fPGAxrZkidYAvOSCTFqlEJ92AQX0Epb8m2Q4EH7Q==",
+      "path": "corehtmltoimage/1.0.6",
+      "hashPath": "corehtmltoimage.1.0.6.nupkg.sha512"
+    }
+  }
+}

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dY6sv2zLkfoSrGFcGYqnlTVL9dXGxzy+70+FXhH7OqGUjzrU2pw7BQM3l5sF7Pz14og+RSmcTOGAynK4QklrZQ==",
+  "dgSpecHash": "7O1YGQ1+3uxalwm8g7y+Suk1qlIHr2Aw1liDy6Vw9u2opBiACgWPErBcovyvOK+2ofxBcXpR/KR3h0Iv+1LP1A==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Geonew\\signature_card_generator\\signature_card_generator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hugol\\.nuget\\packages\\corehtmltoimage\\1.0.6\\corehtmltoimage.1.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

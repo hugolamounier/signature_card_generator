@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "CoreHtmlToImage/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CoreHtmlToImage/1.0.6": {
+      "sha512": "O5TZhjxIV4T3ayZPLJqLQ/KFhu5NllrLqKi+YbKbmjLs11fPGAxrZkidYAvOSCTFqlEJ92AQX0Epb8m2Q4EH7Q==",
+      "type": "package",
+      "path": "corehtmltoimage/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "corehtmltoimage.1.0.6.nupkg.sha512",
+        "corehtmltoimage.nuspec",
+        "lib/netstandard2.0/CoreHtmlToImage.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "CoreHtmlToImage >= 1.0.6"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hugol\\.nuget\\packages\\": {},
@@ -53,6 +78,12 @@
     "frameworks": {
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "CoreHtmlToImage": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
